@@ -1,3 +1,29 @@
+// 전체보기 기능
+const markerMap = new Vue({
+  el: "#test",
+  data: {
+    apiList: [],
+  },
+  methods: {
+    search: function () {
+      const self = this;
+      const APIURL = "http://api.data.go.kr/openapi/tn_pubr_public_toilet_api";
+      const APIKEY =
+        "sQi%2FzMQ3vue0d1rD%2FvPtCe2OgezQc37UYHrqZnNakgkK%2B1ugwK%2BWAkj74lu4Kpz1WbP3s%2FlJYG%2B9Utm%2BCZVSJg%3D%3D";
+
+      axios
+        .get(`${APIURL}?serviceKey=${APIKEY}&pageNo=10&numOfRows=500&type=json`)
+        .then((res) => {
+          const preData = res.data.response.body.items;
+          const upData = preData.filter(
+            (li) => li.rdnmadr !== "null" && li.lnmadr !== "null"
+          );
+          self.apiList = upData;
+        });
+    },
+  },
+});
+
 // *******************검색기능******************************
 const searchShow = document.querySelector(".search-show");
 const mapSearch = document.querySelector(".map-search");
@@ -101,4 +127,5 @@ axios
     for (let i = 0; i < upData.length; i++) {
       myMaker(upData[i], i);
     }
+    console.log(upData);
   });

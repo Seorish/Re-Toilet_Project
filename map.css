@@ -68,12 +68,14 @@ body {
 .search-list {
   list-style: none;
   padding: 0 40px;
+  max-height: 300px;
+  overflow: auto;
 }
 
 .search-li {
   display: flex;
   border-bottom: 1px solid #cfcfcf;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .search-list__text {

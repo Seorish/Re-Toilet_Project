@@ -24,7 +24,9 @@
         <img src="img/img21.jpg" class="menubar_profile" />
         <span class="menubar-nickname">후루룩</span>
         <span class="menubar_name">님</span>
-        <img src="img/img22.jpg" class="menubar_my" />
+        <a href="mypage.html">
+          <img src="img/img22.jpg" class="menubar_my" />
+        </a>
       </div>
     </div>
     <div class="map-search">
@@ -33,13 +35,16 @@
       <div class="search-box hidden">
         <div class="search-src">
           <input placeholder="장소, 주소 검색" class="search-input" />
-          <button><img src="img/search-btn.png" /></button>
+          <button>
+            <a href="review.html"><img src="img/search-btn.png" /></a>
+          </button>
         </div>
-        <ul class="search-list">
-          <li class="search-li">
+        <ul class="search-list" id="test">
+          <div class="test-all" v-on:click="search">전체보기</div>
+          <li class="search-li" v-for="data in apiList">
             <span class="search-list__text">
-              <div class="search-list__title">문래역</div>
-              <div class="search-list__subtitle">서울특별시</div>
+              <div class="search-list__title">{{data.toiletNm}}</div>
+              <div class="search-list__subtitle">{{data.rdnmadr}}</div>
             </span>
             <span class="search-list__review">
               <div class="review-text">
