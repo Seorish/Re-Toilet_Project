@@ -1,0 +1,45 @@
+.menubar_left{
+    width: 1288px;
+    height: 83px;
+    background: #EFF0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 65.5px;
+    margin-left: 77px;
+    margin-top: 47px;
+}
+
+.menubar_img{
+    margin-top:20px;
+    margin-left:53px;
+}
+
+.menubar_right{
+    width:300px;
+    height:46px;
+    margin-top:-66.43px;
+    margin-left:1000px;
+}
+
+.menubar_profile{
+    clear:both;
+    margin-right:244px;
+}
+
+.menubar_name{
+    width:43px;
+    height:31px;
+    margin-top:-40px;
+    margin-left:150px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+}
+
+.menubar_my{
+    margin-top:-65px;
+    margin-left:260px;
+}
+

@@ -1,0 +1,61 @@
+.full{
+    width: 375px;
+    height: 754px;
+    margin: auto;
+}
+
+.main_logo{
+    width:200px;
+    height:28px;
+    margin-left:143px;
+    padding-top:260px;
+    
+
+}
+
+.detail_logo{
+    width:162px;
+    height:23px;
+    margin-left:123px;
+    padding-top:85px;
+}
+
+.text{
+    width:235px;
+    height:24px;
+    margin-left:70px;
+    font-family: "NanumSquare";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+}
+
+.last_logo{
+    width: 102px;
+    height: 32px;
+    margin-left:170px;
+}
+
+.box_login{
+    width: 120px;
+    height: 28px;
+    margin-left:128px;
+    margin-top:180px;
+    border:1px solid rgba(35, 23, 115, 1);
+    background-color: white;
+    border-radius:10px;
+    font-family: 'NanumSquare';
+}
+
+.box_signup{
+    width: 120px;
+    height: 28px;
+    border-radius: 10px;
+    margin-left:128px;
+    margin-top:10px;
+    border:1px solid rgba(35, 23, 115, 1);
+    background-color: white;
+    font-family: 'NanumSquare';
+}
