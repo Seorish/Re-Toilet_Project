@@ -14,7 +14,39 @@
   </head>
   <body>
     <div id="map"></div>
-    <div class="text map-search"></div>
+    <div class="map-locate"><img src="img/locate.png" /></div>
+    <div class="map-search">
+      <img src="img/Line 1.png" class="search-show" />
+      <div></div>
+      <div class="search-box hidden">
+        <div class="search-src">
+          <input placeholder="장소, 주소 검색" class="search-input" />
+          <button><img src="img/search-btn.png" /></button>
+        </div>
+        <ul class="search-list">
+          <li class="search-li">
+            <span class="search-list__text">
+              <div class="search-list__title">문래역</div>
+              <div class="search-list__subtitle">서울특별시</div>
+            </span>
+            <span class="search-list__review">
+              <div class="review-text">
+                리뷰<img src="img/Polygon 3.png" style="padding-left: 10px" />
+              </div>
+              <div class="review-avg">
+                <img
+                  src="img/o_logo.png"
+                  width="18px"
+                  height="20px"
+                  style="object-fit: contain"
+                />
+                <div class="review-avg__text">4.8</div>
+              </div>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
     <script src="api.js"></script>
     <script></script>
   </body>
