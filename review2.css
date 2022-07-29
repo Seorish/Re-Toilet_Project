@@ -1,0 +1,156 @@
+@font-face{
+    src:url("../Re-Toilet_Project/fonts.ttf");
+    font-family:"NanumSquare";
+}
+
+body {
+    margin: 0;
+  }
+  
+  .review-info {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-info__img{
+    width:900px;
+  }
+
+  .review-img1{
+    margin-left:210px;
+  }
+
+  .review-img2{
+    margin-left:-6.5px;
+  }
+
+  .review-info__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .toilet-name {
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+
+  .detail_01{
+    margin-left:670px;
+}
+
+.detail_02{
+    font-family: "NanumSquare";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    margin-top:-22px;
+    color:#747474;
+    margin-left:760px;
+}
+
+.icon_box{
+    width: 375px;
+    height:80px;
+    margin:auto;
+}
+
+.icon{
+    margin-left:128px;
+}
+
+.img_box1{
+    width: 375px;
+    height:80px;
+    margin:auto;
+}
+
+.address_detail{
+    margin-left:50px;
+}
+
+.img_box2{
+    width: 375px;
+    height:20px;
+    margin:auto;
+}
+
+.time_detail{
+    margin-left:50px;
+    margin-top:-30px;
+}
+
+.thin_line{
+    margin-top:10px;
+    border: 0.5px solid #CFCFCF;
+}
+
+.revise{
+    height:200px;
+    width:375px;
+    margin:auto;
+}
+
+.revise_01{
+    height:41px;
+    width:90px;
+    margin-left:50px;
+}
+
+.revise_02{
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: #545454;
+    height:24px;
+    width:164px;
+    margin-top:-46px;
+    margin-left:94px;
+}
+
+.thick_line{
+    background: linear-gradient(to top, #CFCFCF, #747474);
+    height:5px;
+    border:0px;
+    margin-top:-140px;
+}
+
+.review_img{
+    margin-left:530px;
+}
+
+.review_img2{
+    margin-left:530px;
+}
+
+.review_img3{
+    margin-left:530px;
+}
+
+.footer{
+    background-color: #e3e3e3;
+    margin-left:0px;
+}
+
+.footer_text{
+    text-align:center;
+    padding-top:10px;
+    font-family: "NanumSquare";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 7px;
+    color: #747474;
+}
+
+.footer_img{
+    margin-left:740px;
+    margin-top:-8px;
+}
